@@ -26,6 +26,8 @@
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -43,7 +45,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -51,7 +53,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Derp's OSRS Loot Simulator</string>
+     <string>Derp's OSRS Revenant Loot Simulator</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -88,7 +90,7 @@
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>91</width>
+      <width>111</width>
       <height>22</height>
      </rect>
     </property>
@@ -100,6 +102,56 @@
     <item>
      <property name="text">
       <string>Revenant Goblin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Pyrefiend</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Hobgoblin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Cyclops</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Hellhound</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Demon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Ork</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Dark Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Knight</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Dragon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revenant Maledictus</string>
      </property>
     </item>
    </widget>
