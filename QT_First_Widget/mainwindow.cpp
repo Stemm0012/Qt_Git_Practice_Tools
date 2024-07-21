@@ -34,3 +34,8 @@ void MainWindow::on_pushButton_4_clicked()
         button4 = true;
     }
 }
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    ui->label_4->setText(": )");
+}
