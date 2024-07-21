@@ -22,7 +22,7 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>101</width>
+      <width>111</width>
       <height>31</height>
      </rect>
     </property>
@@ -35,7 +35,7 @@
      <rect>
       <x>10</x>
       <y>60</y>
-      <width>101</width>
+      <width>111</width>
       <height>31</height>
      </rect>
     </property>
@@ -61,7 +61,7 @@
      <rect>
       <x>10</x>
       <y>100</y>
-      <width>101</width>
+      <width>111</width>
       <height>31</height>
      </rect>
     </property>
@@ -83,6 +83,32 @@
     </property>
     <property name="inputMethodHints">
      <set>Qt::ImhNone</set>
+    </property>
+    <property name="text">
+     <string>: )</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Click to Show/Hide -&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
     </property>
     <property name="text">
      <string>: )</string>
@@ -148,6 +174,22 @@
     <hint type="destinationlabel">
      <x>146</x>
      <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>label_3</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>113</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>177</y>
     </hint>
    </hints>
   </connection>
