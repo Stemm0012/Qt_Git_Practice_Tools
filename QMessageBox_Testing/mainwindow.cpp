@@ -20,3 +20,8 @@ void MainWindow::on_pushButton_clicked()
     QMessageBox::about(this, "About", "About your Button");
 }
 
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QMessageBox::aboutQt(this, "AboutQt");
+}
