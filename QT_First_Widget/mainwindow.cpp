@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-int test = 0;
+bool button4 = true;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -23,14 +23,14 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_4_clicked()
 {
 
-    if(test == 0)
+    if(button4)
     {
         ui->label_3->show();
-        test = 1;
+        button4 = false;
     }
     else
     {
         ui->label_3->hide();
-        test = 0;
+        button4 = true;
     }
 }
