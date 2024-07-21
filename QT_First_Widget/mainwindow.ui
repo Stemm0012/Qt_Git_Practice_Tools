@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
@@ -37,7 +40,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Click to Show/Hide</string>
+     <string>Click to Hide -&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -48,6 +51,38 @@
       <width>21</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>: )</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Click to Show -&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
     </property>
     <property name="text">
      <string>: )</string>
@@ -88,31 +123,31 @@
    <sender>pushButton_2</sender>
    <signal>clicked(bool)</signal>
    <receiver>label</receiver>
-   <slot>hide()</slot>
+   <slot>setVisible(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>91</x>
-     <y>97</y>
+     <x>87</x>
+     <y>100</y>
     </hint>
     <hint type="destinationlabel">
-     <x>143</x>
-     <y>97</y>
+     <x>144</x>
+     <y>101</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>label</receiver>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_2</receiver>
    <slot>show()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>105</x>
-     <y>110</y>
+     <y>133</y>
     </hint>
     <hint type="destinationlabel">
-     <x>150</x>
-     <y>103</y>
+     <x>146</x>
+     <y>139</y>
     </hint>
    </hints>
   </connection>
