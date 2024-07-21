@@ -17,5 +17,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QMessageBox::about(this, "My Title", "This is the New Title");
+    QMessageBox::about(this, "About", "About your Button");
 }
+
